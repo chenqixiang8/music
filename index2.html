@@ -1,0 +1,470 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" class="no-js">
+
+<head>
+<meta charset="utf-8">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+			if (!!window.ActiveXObject || "ActiveXObject" in window){
+				window.location.href = '/support/%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%8D%E5%85%BC%E5%AE%B9.html'
+			}
+</script>
+<script type="text/javascript">
+	var ua = navigator.userAgent.toLowerCase();
+	if (ua.indexOf("Android") > -1 || ua.indexOf("iPhone") > -1) {
+		if(ua.match(/MicroMessenger/i) == "micromessenger" || ua.match(/WeiBo/i) == "weibo") {
+		window.location.href = "/guide.html"
+	}
+	if(ua.indexOf(' qq') > -1 && ua.indexOf('mqqbrowser') < 0) {
+		window.location.href = "/guide.html"
+	}
+	}
+	
+</script>
+<script type="text/javascript">
+				for(var i = 0; i < localStorage.length; i++) {
+					var key = localStorage.key(i); //获取本地存储的Key
+					if(JSON.parse(localStorage.getItem(key)).hasOwnProperty("createTime") == true) {
+						if (JSON.parse(localStorage.getItem(key)).createTime < 1596182400000) {
+							localStorage.removeItem(key);
+						}else{
+							console.log("Jump")
+						}
+					}
+
+				}
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?fb945db6911379562bc145ce9034bfb8";
+  hm.async = "async";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta name="Baiduspider" content="noarchive">
+<meta name="robots" content="noarchive">
+<meta http-equiv="Pragma" content="no-cache" />
+<link rel="search" type="application/opensearchdescription+xml" href="/static/opensearch.xml" title="Music">
+<meta name="theme-color" content="#1E9FFF">
+<script> fore_uri = "https://yinyue.cdn.qugeek.com"</script><script>!function(){var e=/([http|https]:\/\/[a-zA-Z0-9\_\.]+\.baidu\.com)/gi,r=window.location.href,t=document.referrer;if(!e.test(r)){var o="https://sp0.baidu.com/9_Q4simg2RQJ8t7jm9iCKT-xh_/s.gif";t?(o+="?r="+encodeURIComponent(document.referrer),r&&(o+="&l="+r)):r&&(o+="?l="+r);var i=new Image;i.src=o}}(window);</script>
+<script> keywords = "q"+"u"+"g"+"e" + "e" + "k"</script>		
+		<title>Rainyscope weather simulator: the beauty of the changing seasons.</title>
+		<meta name="Description" content="让雨给你唱催眠曲，一边工作一边放松。给你一个创造性的激励，保持专注或放松。"/>
+		<meta name="Keywords" content="白噪音,白噪音在线,在线雨声,墨灵音乐"/>
+		<link rel="stylesheet" type="text/css" href="https://yinyue.cdn.qugeek.com/static/rainyscope/css/demo.css">
+
+		<script src="https://yinyue.cdn.qugeek.com/static/rainyscope/js/jquery.min.js"></script>
+		<script type="text/javascript">
+					product_static_path = '/static/rainyscope/'
+		</script>
+
+		<!-- Countdown by Krzysztof Furtak -->
+		<script type="text/javascript" src="https://yinyue.cdn.qugeek.com/static/rainyscope/js/kkcountdown.js"></script>
+		<script type="text/javascript">
+					$(document).ready(function() {
+						$("#stop_all").on('click', function() {
+							var secs = $("#secs").val(),
+								cdBox = $(".kkcountdown");
+
+							$("#secs").parent("span").html("<strong>" + secs + "</strong>");
+							$('.reset').show().on('click', function() {
+								cdBox.trigger('countdown:reset');
+							});
+
+							cdBox.attr('data-seconds', secs)
+								.kkcountdown({
+									displayDays: true,
+									displayZeroDays: false,
+									hoursText: ':',
+									minutesText: ':',
+									secondsText: '',
+									textAfterCount: 'Thank you',
+									warnSeconds: 10,
+									warnClass: 'alert',
+									callback: cBack
+								});
+						});
+
+					});
+
+					function cBack() {
+						console.log('THE END - Function callback!');
+					}
+		</script>
+
+	</head>
+
+	<body class="demo-1">
+
+		<!-- player begins -->
+		<audio id="1" src="https://yinyue.cdn.qugeek.com/static/rainyscope/audio/rainbest160.mp3" autoplay loop></audio>
+		<audio id="2" src="https://yinyue.cdn.qugeek.com/static/rainyscope/audio/splashing-rainfall160.mp3" loop></audio>
+		<audio id="3" src="https://yinyue.cdn.qugeek.com/static/rainyscope/audio/birds160.mp3" loop></audio>
+		<audio id="4" src="https://yinyue.cdn.qugeek.com/static/rainyscope/audio/snow.mp3" loop></audio>
+		<audio id="5" src="https://yinyue.cdn.qugeek.com/static/rainyscope/audio/thunder160.mp3" loop></audio>
+
+		<div class="image-preload">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/drop-color.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/drop-alpha.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-rain-fg.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-rain-bg.jpg" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-sun-fg.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-sun-bg.jpg" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-sun-2fg.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-sun-2bg.jpg" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-fallout-fg.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-fallout-bg.jpg" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-drizzle-fg.png" alt="">
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/weather/texture-drizzle-bg.jpg" alt="">
+		</div>
+
+		<div class="container">
+
+			<!-- <header class="just-header"></header> -->
+
+			<div class="overlay"></div>
+
+			<img src="https://yinyue.cdn.qugeek.com/static/rainyscope/img/logo.png" id="logo" class="hider" alt="" onclick="window.location.href='/'">
+
+			<div id="righter">
+				<a href="javascript:;" id="hideui"><span class="hider">隐藏</span> 控制台 <i class="fa fa-eye-slash fa-fw fa-lg"></i></a>
+				<br><br>
+				<a href="javascript:;" id="stop_all" class="hider" onClick="stop_current_sound();">计时器 <i class="far fa-clock fa-fw fa-lg"></i></a>
+				<br><br>
+				<span class="kkcountdown compte hider" data-seconds="3600"></span>
+			</div>
+
+			<div class="slideshow">
+				<canvas width="1" height="1" id="container" style="position:absolute"></canvas>
+				<!-- Best Rain -->
+				<div class="slide" id="slide-1" data-weather="rain"></div>
+				<!-- Sunny -->
+				<div class="slide" id="slide-3" data-weather="sunny"></div>
+				<!-- Drizzle -->
+				<div class="slide" id="slide-2" data-weather="drizzle"></div>
+				<!-- Fallout (greenish overlay with slightly greenish/yellowish drops) -->
+				<div class="slide" id="slide-4" data-weather="fallout"></div>
+				<!-- Thunder rain -->
+				<div class="slide" id="slide-5" data-weather="storm"></div>
+
+				<nav class="slideshow__nav hider">
+					<a class="nav-item nav-bg-v" href="#slide-1" onclick="aud_play_pause('1')"><i class="icon icon--rainy"></i><span>夏天</span></a>
+					<a class="nav-item nav-bg-b" href="#slide-3" onclick="aud_play_pause('3')"><i class="icon icon--sun"></i><span>酷暑</span></a>
+					<a class="nav-item nav-bg-m" href="#slide-2" onclick="aud_play_pause('2')"><i class="icon icon--drizzle"></i><span>秋天</span></a>
+					<a class="nav-item nav-bg-g" href="#slide-4" onclick="aud_play_pause('4')"><i class="icon icon--winter"></i><span>冬天</span></a>
+					<a class="nav-item nav-bg-y" href="#slide-5" onclick="aud_play_pause('5')"><i class="icon icon--storm"></i><span>春季</span></a>
+					<!--<a class="nav-item nav-bg-r" href="https://hipstersound.com/ambience.html"><i class="icon icon--cafe"></i><span>Cafe</span></a>-->
+				</nav>
+
+			</div>
+			<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
+		</div>
+		<!-- /container -->
+
+		<!-- PUB pater
+				<div><i class="fa fa-times" id="tim" onclick="document.getElementById('pat').style.display='none';document.getElementById('tim').style.display='none';"></i></div>
+				<a class="pater" id="pat" href="https://sovietnostalgy.com" target="_blank">					
+			         <div class="pater__img pieces" style="background-image: url(pater/pub.jpg)" data-image-alt="pater/pub2.jpg"></div>
+			    </a> -->
+
+		<!-- Share buttons by Cubecamp.ru  www.cubecamp.ru/articles/share/cubecamp.html -->
+		<div id="copyright">
+			<p><a href="/" target="_blank"><i class="fas fa-home"></i> Home |</a><span class="hider"> © 2020 </span>Translator Qugeek;Author Rainyscope |
+				<a href="http://rainyscope.com/" target="_blank">Official website</a>
+			</p>
+		</div>
+
+		<!-- Volume slider -->
+		<div class="speaker hider">
+			<svg viewBox="0 0 100 77" xmlns="http://www.w3.org/2000/svg">
+				<path id="speakB" class="volElem" stroke="#ffffff" d="M51.2,18.5v-13c0-2.1-2.5-3.3-4.1-1.9L21.8,25.9c-1.4,1.2-3.1,1.9-4.9,1.9H8.2c-2.3,0-4.2,1.9-4.2,4.2v13.3c0,2.3,1.9,4.2,4.2,4.2H17c1.9,0,3.7,0.7,5.1,1.9l25,22c1.6,1.4,4.1,0.3,4.1-1.9v-13" opacity="0.4" />
+				<path id="speakF" class="volElem" stroke="#ffffff" d="M51.2,18.5v-13c0-2.1-2.5-3.3-4.1-1.9L21.8,25.9c-1.4,1.2-3.1,1.9-4.9,1.9H8.2c-2.3,0-4.2,1.9-4.2,4.2v13.3c0,2.3,1.9,4.2,4.2,4.2H17c1.9,0,3.7,0.7,5.1,1.9l25,22c1.6,1.4,4.1,0.3,4.1-1.9v-13" />
+				<path id="arcBigB" class="volElem" stroke="#ffffff" d="M72.2,64.1C81.1,59,87,49.4,87,38.5c0-10.9-5.9-20.5-14.8-25.6" opacity="0.4" />
+				<path id="arcBigF" class="volElem" stroke="#ffffff" d="M72.2,64.1C81.1,59,87,49.4,87,38.5c0-10.9-5.9-20.5-14.8-25.6" />
+				<path id="arcSmB" class="volElem" stroke="#ffffff" d="M59,51.3c4.4-2.6,7.4-7.4,7.4-12.8s-3-10.3-7.4-12.8" opacity="0.4" />
+				<path id="arcSmF" class="volElem" stroke="#ffffff" d="M59,51.3c4.4-2.6,7.4-7.4,7.4-12.8s-3-10.3-7.4-12.8" />
+				<line id="crossLtRb" class="volElem" opacity="0.6" stroke="#ffffff" x1="43.8" y1="29.2" x2="62.6" y2="47.8" transform="scale(0)" />
+				<line id="crossLbRt" class="volElem" opacity="0.6" stroke="#ffffff" x1="62.6" y1="29.2" x2="43.8" y2="47.8" transform="scale(0)" />
+			</svg>
+		</div>
+		<div class=""></div>
+		<div class="vlCtrl hider">
+			<svg viewBox="0 0 280 27" xmlns="http://www.w3.org/2000/svg">
+				<line id="ctrlLineB" class="volElem" stroke="#ffffff" x1="13" y1="13.5" x2="261.2" y2="13.5" opacity="0.4" />
+				<line id="ctrlLineF" class="volElem" stroke="#ffffff" x1="13" y1="13.5" x2="261.2" y2="13.5" />
+				<circle id="ctrlCirce" cx="261.2" cy="13.5" r="13" fill="#ffffff" />
+			</svg>
+		</div>
+
+		<!-- sound script by leke: www.webdeveloper.com/forum/showthread.php?276447-lt-audio-gt-stop%28%29-playing-all-other-instances -->
+		<script>
+			ids = new Array(5); // an array with total number of ids
+			var active_id = 0;
+
+			function aud_play_pause(idNumber) {
+
+				var idNumber = document.getElementById(idNumber);
+
+				for(var i = 0; i < ids.length; i++) {
+					document.getElementById(i + 1).pause(); // Pause all ids before playing next file.
+					document.getElementById(i + 1).currentTime = 0; // Set the time back to zero, else it will replay from the pause point.
+				}
+				active_id = idNumber;
+				idNumber.play();
+			}
+
+			active_id = document.getElementById("1");;
+
+			function stop_current_sound() {
+				setTimeout(function() {
+					var idNumber = document.getElementById(idNumber);
+					for(var i = 0; i < ids.length; i++) {
+						document.getElementById(i + 1).pause(); // Pause all ids before playing next file.
+						document.getElementById(i + 1).currentTime = 0; // Set the time back to zero, else it will replay from the pause point.
+					}
+				}, 3600000);
+			}
+		</script>
+
+		<script>
+			$("#hideui").click(function() {
+				$(".hider").toggleClass("nonvisibl");
+			});
+		</script>
+
+		<style type="text/css">
+			/* abel-regular */
+			
+			@font-face {
+				font-family: 'Abel';
+				font-style: normal;
+				font-weight: regular;
+				src: url('//lib.baomitu.com/fonts/abel/abel-regular.eot');
+				/* IE9 Compat Modes */
+				src: local('Abel'), local('Abel-Normal'), url('//lib.baomitu.com/fonts/abel/abel-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+				url('//lib.baomitu.com/fonts/abel/abel-regular.woff2') format('woff2'), /* Super Modern Browsers */
+				url('//lib.baomitu.com/fonts/abel/abel-regular.woff') format('woff'), /* Modern Browsers */
+				url('//lib.baomitu.com/fonts/abel/abel-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+				url('//lib.baomitu.com/fonts/abel/abel-regular.svg#Abel') format('svg');
+				/* Legacy iOS */
+			}
+		</style>
+		<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" rel="stylesheet">
+
+		<script src="https://yinyue.cdn.qugeek.com/static/rainyscope/js/index.2.min.js"></script>
+		<script src="https://yinyue.cdn.qugeek.com/static/rainyscope/js/slider.js"></script>
+
+		<!-- PUB pater		
+		<script src="https://cdn.jsdelivr.net/npm/animejs@2.2.0/anime.min.js"></script>		
+		<script src="pater/main.js"></script>
+		<script src="pater/pater.js"></script> -->
+	</body>
+
+</html>
